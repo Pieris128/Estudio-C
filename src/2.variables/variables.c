@@ -14,7 +14,7 @@ int main (){ //funcion principal
 
 		suma = PI + x;
 
-printf("La suma es: %f",suma);
+printf("La suma es: %.2f",suma); //el punto dos me setea la cantidad de decimales que me arrojara la suma
 
 return 0;
 
