@@ -9,6 +9,7 @@ int main(){
 	char c;
 
 	printf("Digite el valor de la variable a: ");
+	
 	scanf("%i",&a);
 
 	printf("El valor es: %i",a);
