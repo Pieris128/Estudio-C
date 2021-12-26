@@ -10,7 +10,7 @@ int main(){
 	if ( a > 0 ){
 		puts("El numero es positivo");
 	}
-	if ( a = 0 ){
+	if ( a == 0 ){
 		printf("El numero es 0");
 	}
 	return 0;
