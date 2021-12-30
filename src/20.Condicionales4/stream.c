@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<string.h>
 int main (){
 	char nombre[40],sexo[20];
 	int edad;
