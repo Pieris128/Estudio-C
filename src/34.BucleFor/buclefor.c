@@ -1,4 +1,4 @@
-//mostrar los diez primeros numeros
+//mostrar los diez primeros numeros en forma ascendente con bucle for
 
 #include<stdio.h>
 
