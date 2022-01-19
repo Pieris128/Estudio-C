@@ -2,6 +2,6 @@
 main( )                   // define una función llamada main
                                  //   que no recibe valores de argumentos
 {                                  //  las proposiciones de main están encerradas entre llaves
-printf("hola, mundo\n");              // main llama a la función de biblioteca printf
+printf("hola, mundo\n");              // main llama a la función de biblioteca printf. para escribir esta secuencia de caracteres;
 return 0;
-}                                     //          para escribir esta secuencia de caracteres;
+}                                              
