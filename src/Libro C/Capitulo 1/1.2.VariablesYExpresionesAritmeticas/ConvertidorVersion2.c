@@ -1,8 +1,8 @@
 # include <stdio.h>
 /* imprime la tabla Fahrenheit-Celsius
 para fahr = 0, 20, ..., 300; versión de punto flotante */
-main( )
-{
+int main(void){
+
 float fahr, celsius; //se usa float para mas exactitud
 int lower, upper, step;
 lower = 0 ; /* límite superior de la tabla de temperaturas */
