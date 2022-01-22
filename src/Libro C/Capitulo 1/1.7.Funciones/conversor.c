@@ -1,22 +1,24 @@
 #include <stdio.h>
 
-int conver(int f);
-
-/* imprime la tabla Fahrenheit-Celsius
-para fahr = 0, 20, ..., 300 */
+float conver(float a);
 
 int main (){
-int farh,i;
-farh = 0; 
-for(i=0;i<=300;i=i+20)
-printf("farh: %d, celsius: %d\n",farh,conver(i));
-farh = farh + 20;
-return 0;
+    int f;
+    int i;
+    int lower, upper, step; 
+    lower=0;
+    upper=300;
+    step=20;
+    for(i=lower;i<=upper;i+=20){
+    conver(f);
+    printf("%i F %.2f °C\n",f,conver(f));
+    f = f + step; 
+    }
 }
 
-int conver(int farh)
-{
-int p, celsius;
-celsius = 5 * (p-32) / 9;
-return celsius;
+float conver(float a){
+    float celsius;
+    celsius = 5 * (a-32) / 9;
+    return celsius; 
 }
+
