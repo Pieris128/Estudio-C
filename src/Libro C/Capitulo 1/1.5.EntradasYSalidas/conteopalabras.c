@@ -13,8 +13,14 @@ while ((c = getchar( ))  != EOF) {
 ++nc;
 if (c == '\n')
 ++nl;
-if (c == ' ' || c == '\n' || c == '\t');
-++nw;
+if (c == ' ' || c == '\n' || c == '\t'){
+state = OUT;}
+else
+{
+state = IN;
+nw++;
+}
 }
 printf("%d %d %d\n",nl, nw, nc);
+return 0;
 }
