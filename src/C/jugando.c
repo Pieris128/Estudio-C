@@ -9,4 +9,6 @@ int main(){
     int resultado;
     resultado = division(a, b);
     printf("%i",resultado);
+
+    return 0;
 }
